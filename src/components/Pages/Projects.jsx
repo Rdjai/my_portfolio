@@ -9,6 +9,40 @@ const Projects = () => {
         "Built a fully functional Twitter clone using the MERN stack. Implemented features like user authentication, tweeting, liking, retweeting, and following. Designed a responsive UI using React and managed backend using Node.js, Express, and MongoDB.",
       github: "https://github.com/Rdjai/twitterclone",
       live: "#",
+      technologies: [
+        {
+          name: "JavaScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
+        {
+          name: "React.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        },
+        {
+          name: "MongoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+        {
+          name: "Redux",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        },
+        {
+          name: "JWT Authentication",
+          icon: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAdtAAZAA0",
+        },
+      ],
     },
     {
       Id: "2",
@@ -17,6 +51,24 @@ const Projects = () => {
         "Developed a movie collection app using Flutter integrated with the TMDB API. Features include searching movies, viewing details, and saving to favorites. Deployed via Android Studio and VS Code.",
       github: "#",
       live: "#",
+      technologies: [
+        {
+          name: "Flutter",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+        },
+        {
+          name: "TMDB API",
+          icon: "https://www.themoviedb.org/assets/2/v4/logos/stacked-blue-f39d9c69bcf3ebc2c652b67c9b5423c4aa14f4c5c5b244fbd2381831c2b1db57.svg",
+        },
+        {
+          name: "Android Studio",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
+        },
+        {
+          name: "VS Code",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        },
+      ],
     },
     {
       Id: "3",
@@ -25,6 +77,24 @@ const Projects = () => {
         "Built a cross-platform URL shortener and QR generator using MERN for web and Flutter for Android. Includes custom aliasing, JWT authentication, click analytics, and QR code downloads.",
       github: "https://github.com/Rdjai/shortQr/tree/master",
       live: "#",
+      technologies: [
+        {
+          name: "MERN Stack",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MERN-logo.png/768px-MERN-logo.png",
+        },
+        {
+          name: "Flutter",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+        },
+        {
+          name: "JWT",
+          icon: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAdtAAZAA0",
+        },
+        {
+          name: "QR Code",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/5/5e/QR_Code_example.svg",
+        },
+      ],
     },
     {
       Id: "4",
@@ -33,6 +103,24 @@ const Projects = () => {
         "A jewelry e-commerce web app built using the MERN stack. Features product listing, cart, order tracking, and admin dashboard for inventory management. Mobile responsive UI and secure backend APIs.",
       github: "https://github.com/Rdjai/aj_jewellary_shop",
       live: "#",
+      technologies: [
+        {
+          name: "MongoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+        {
+          name: "Express.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        },
+        {
+          name: "React.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+      ],
     },
     {
       Id: "5",
@@ -41,6 +129,24 @@ const Projects = () => {
         "Feature-rich note-taking app built with Flutter (frontend) and Node.js, Express, MongoDB (backend). Supports user login, rich text notes, image upload, and cloud storage. Designed for performance and ease of use.",
       github: "https://github.com/Rdjai/notebook",
       live: "#",
+      technologies: [
+        {
+          name: "Flutter",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+        },
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        },
+        {
+          name: "MongoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+      ],
     },
   ];
 
@@ -99,7 +205,7 @@ const Projects = () => {
           ))}
         </div>
       </motion.section>
-    </motion.div>
+    </motion.div >
   );
 };
 
