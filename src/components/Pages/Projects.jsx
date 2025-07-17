@@ -36,7 +36,7 @@ const Projects = () => {
         },
         {
           name: "Tailwind CSS",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         },
         {
           name: "JWT Authentication",
@@ -58,7 +58,7 @@ const Projects = () => {
         },
         {
           name: "TMDB API",
-          icon: "https://www.themoviedb.org/assets/2/v4/logos/stacked-blue-f39d9c69bcf3ebc2c652b67c9b5423c4aa14f4c5c5b244fbd2381831c2b1db57.svg",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
         },
         {
           name: "Android Studio",
@@ -79,21 +79,33 @@ const Projects = () => {
       live: "#",
       technologies: [
         {
-          name: "MERN Stack",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MERN-logo.png/768px-MERN-logo.png",
+          name: "JavaScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
+        {
+          name: "MongoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+
+        },
+        {
+          name: "Express.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+
+        },
+        {
+          name: "React.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
         {
           name: "Flutter",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
         },
-        {
-          name: "JWT",
-          icon: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAdtAAZAA0",
-        },
-        {
-          name: "QR Code",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/5/5e/QR_Code_example.svg",
-        },
+
+
       ],
     },
     {
@@ -104,6 +116,10 @@ const Projects = () => {
       github: "https://github.com/Rdjai/aj_jewellary_shop",
       live: "#",
       technologies: [
+        {
+          name: "JavaScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
         {
           name: "MongoDB",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
@@ -184,6 +200,23 @@ const Projects = () => {
                   <p className="text-[#d6d6d6] text-base mb-2">
                     {project.description}
                   </p>
+                  {
+                    project.technologies.map((tech, index) => (
+                      <span
+                        key={index}
+                        className="cursor-pointer inline-flex items-center gap-2 text-sm text-[#d2bb77] bg-[#2c2c2c] px-3 py-1 rounded-full mr-2 mb-2
+             hover:bg-[#3a3a3a] hover:scale-105 transition-all duration-200"
+                      >
+                        <img
+                          src={tech.icon}
+                          alt={tech.name}
+                          className="w-4 h-4"
+                        />
+                        {tech.name}
+                      </span>
+
+                    ))
+                  }
                   <div className="flex gap-5 mt-5">
                     <a
                       href={project.github}
