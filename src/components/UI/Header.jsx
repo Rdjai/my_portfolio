@@ -1,4 +1,4 @@
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,6 +16,9 @@ const Header = () => {
           </NavLink>
           <NavLink to="/blogs">
             <li className="hover:text-[#ffdb70]">blogs</li>
+          </NavLink>
+          <NavLink to="/resume">
+            <li className="hover:text-[#ffdb70]">resume</li>
           </NavLink>
         </ul>
       </nav>
