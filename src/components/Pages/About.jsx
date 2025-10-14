@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 import GitHubCalendar from "react-github-calendar";
 import { motion } from "framer-motion";
+import HeroSection from "../UI/herosection";
 const About = () => {
   return (
     <>
+      {/* <HeroSection /> */}
       <motion.div
         className="max-w-3xl mx-auto px-5"
         initial={{ opacity: 0, y: 40 }}
