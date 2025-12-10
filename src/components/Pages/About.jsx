@@ -78,7 +78,7 @@ const About = () => {
           >
             <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-purple-900/30 to-blue-900/30 border border-purple-500/20">
               <Sparkles className="h-4 w-4 text-purple-400" />
-              <span className="text-sm font-medium text-purple-300">Web & Flutter Developer</span>
+              <span className="text-sm font-medium text-purple-300">Mern & Flutter Developer</span>
             </div>
 
             <motion.h1
